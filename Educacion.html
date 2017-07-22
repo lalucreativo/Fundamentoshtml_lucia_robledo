@@ -7,57 +7,93 @@
 	</head>
 	<body>
    		<img src="images/Logo.svg"/>
+      <hr /> 
         <br />
         <h1>Curriculum Vitae</h1>
         <h2>Lu Robledo</h2>
  	 	<h3>Monterrey, Nuevo León, México</h3>
  	 	<h3>14 Enero 1976</h3>
          <br />    
-			<p><strong><a href="file:///Macintosh HD/Users/LuRobledo/Desktop/Index.html">Volver a Inicio</a></strong></p>
-        	<p><a href="file:///Macintosh HD/Users/LuRobledo/Desktop/Experiencia.html">Experiencia</a></p>
-	<br />
-	<br />
-    	<h2>Educación</h2>
-       		<thead>
-				<tr>
-					<th>Escuela</th>
-					<th>Lugar</th>
-					<th>Año</th>
-					<th>Estudios</th>
-					<th>Tpo de Estudios</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>Universidad Regiomontana</td>
-					<td>Monterrey, Nuevo León</td>
-					<td>1996</td>
-					<td>Licenciado en Diseño Gráfico</td>
-					<td>Licenciatura</td>
-				</tr>
-				<tr>
-					<td>Instituto Tecnológico de Monterrey</td>
-					<td>Monterrey, Nuevo León</td>
-					<td>2001</td>
-					<td>Idiomas</td>
-					<td>Inglés e Italiano</td>
-				</tr>
-				<tr>
-					<td>Univerdidad de Monterrey</td>
-					<td>Monterrey, Nuevo León</td>
-					<td>2002</td>
-					<td>Artes Plásticas</td>
-					<td>Serigrafía</td>
-				</tr>
-			</tbody>
-		</table>
+			<p><strong><a href="../Index.html">Volver a Inicio</a></strong></p>
+        	<p><a href="../Experiencia.html">Experiencia</a></p>
+		<br />
+    <h2>Educación</h2>
+	<table border="2" cellpadding="10" cellspacing="0">
+  <tr>
+    <td>Año</td>
+    <td>Institución</td>
+    <td>Lugar</td>
+    <td>Culminado</td>
+  </tr>
+  <tr>
+    <td>1995</td>
+    <td>Universidad Regiomontana</td>
+    <td>Monterrey, Nuevo León, México</td>
+    <td>Si</td>
+  </tr>
+  <tr>
+    <td>1997</td>
+    <td>Universidad de Monterrey</td>
+    <td>Monterrey, Nuevo León, México</td>
+    <td>Si</td>
+  </tr>
+  <tr>
+    <td>2001</td>
+    <td>Universidad Regiomontana</td>
+    <td>Monterrey, Nuevo León, México</td>
+    <td>Si</td>
+  </tr>
+</table>     
+	<h2>Agregar Estudios</h2> 
+		<form action="Formulario">
+        <fieldset>
+		<p>
+			<label for="date">Año</label>
+			<br>
+			<select name="recommend">
+				<option value="1">1996</option>
+				<option value="1">1997</option>
+				<option value="1">1998</option>
+                <option value="1">1999</option>
+                <option value="1">2000</option>
+                <option value="1">2001</option>
+                <option value="1">2002</option>
+                <option value="1">2003</option>
+                <option value="1">2004</option>
+                <option value="1">2005</option>
+                <option value="1">2006</option>
+                <option value="1">2007</option>
+                <option value="1">2008</option>
+			</select>
+		</p>
+        <p>
+			<label for="text">Institución</label>
+			<br>
+			<textarea name="text" id="Universidad o Escuela" cols="50" rows="1" placeholder="Ej: Universidad del Norte"required /></textarea>
+		</p>
+         <p>
+			<label for="text">Lugar</label>
+			<br>
+			<textarea name="text" id="Lugar" cols="50" rows="1" placeholder="Ej: Monterrey, Nuevo León, México"required /></textarea>
+		</p>
+        <p>
+			<label for="option">¿Terminó?</label>
+			<input type="radio" name="genre"> Si
+			<input type="radio" name="genre"> No
+		</p>
+		<p>
+			<button type="submit">Enviar</button>
+		</p>
+        </fieldset>
+        </form>
+        <br />
  	<hr />     
 	<footer>
 	® Derechos Reservados Lu Robledo
-	<p>Email: lu.robledo@me.com</p>
-	<p>Teléfono: (01) 55-984 157 8080</p>
-    <p>Instagram: LaLuCreativo</p>
-    <p>Dirección: Monterrey, Nuevo León, México</p>
+		<p>Email: lu.robledo@me.com</p>
+		<p>Teléfono: (01) 55-984 157 8080</p>
+   	 	<p>Instagram: LaLuCreativo</p>
+    	<p>Dirección: Monterrey, Nuevo León, México</p>
 	</footer>
     </body>
 </html>
